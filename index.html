@@ -17,10 +17,10 @@
 </head>
     <body>
         <!-- Navigation -->
-        <nav class = "navbar navbar-expand-md navbar-light bg-light sticky-top">
+        <nav class = "navbar navbar-expand-md navbar-light bg-light sticky-top"> <!-- expand md makes it so if the screen is smaller like in mobile, it becomes a dropdown menu tab light makes bg light text dark and stick top sticks it to the top -->
             <div class = "container-fluid">
-                <a class = "navbar-brand" href="#"><img src="images/amongus.png" width="48" height="48"></a>
-                <button class = "navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
+                <a class = "navbar-brand" href="#"><img src="images/amongus.png" width="56" height="56"></a>
+                <button class = "navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive"><!-- this button is the dropdown menu which appears when screen md -->
                     <span class = "navbar-toggler-icon"></span>
                 </button>
                 <div class ="collapse navbar-collapse" id="navbarResponsive">
@@ -44,6 +44,47 @@
                 </div>
             </div>
         </nav>
+
+        <!-- Image slider -->
+        <div id="slides" class="carousel slide" data-ride="carousel">
+            <ul class="carousel-indicators">
+                <li data-target="#slides" data-slide-to="0" class="active"></li>
+                <li data-target="#slides" data-slide-to="1"></li>
+                <li data-target="#slides" data-slide-to="2"></li>
+            </ul>
+        </div>
+        <div class="carousel-inner active">
+            <div class="carousel-item">
+                <img src = " ">
+                <div class="carousel-caption">
+                    <h1 class="display-2">Chungus</h1>
+                    <h3>Amongus</h3>
+                    <button type="button" class="btn btn-outline-light btn-large">SUS</button>
+                    <button type="button" class="btn btn-primary btn-large">INNOCENT</button>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src = " ">
+            </div>
+            <div class="carousel-item">
+                <img src = " ">
+            </div>
+        </div>
+
+        <!-- Jumbotron - A jumbotron is a big grey box used to indicate some text which requires extra attention. Any text that seems to be important can be written inside a jumbotron to make it appear big and noticeable. -->
+        <div class="container-fluid">
+            <div class="row jumbotron">
+                <div class="col-xs-12 col-sm-12 col-md-9 col-lg-9 col-xl-10">
+                    <p class ="lead">This is zoo wow</p>
+                </div>
+                <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3 col-xl-2">
+                    <a href="#">
+                        <button type="button" class="btn btn-outline-secondary-btn-lg">Zoo time.</button>
+                    </a>
+                </div>
+            </div>
+        </div>
+
         <div>
             <div>This is my zoo. It has 4 animals total, please visit each page below to see them.</div>
             <div>
